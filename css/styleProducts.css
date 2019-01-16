@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*
+Stylesheet for Products Page
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Main Sections */
+main {
+	background-color: linen;
+}
+
+span#dot {
+	color: linen;
+}
+
+/* Section and category styles*/
+
+section.items {
+	clear: both;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+div.category h1 {
+	border-radius: 20px;
+	color: goldenrod;
+	background-color: black;
+	text-align: center;
+	font-size: 2em;
+	padding: 5px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/* Product Styles */
+
+div.product {
+	-webkit-flex: 1 1 200px;
+	flex: 1 1 200px;
+	border: 1px solid black;
+	background-color: goldenrod;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 10px;
+	box-shadow: gray 15px 10px 50px;
+}
+
+div.product h1 {
+	text-align: center;
+	font-size: 1.3em;
+	padding: 10px;
+	border-radius: 20px;
+	color: goldenrod;
+	background-color: black;
+	margin-bottom: 5px;
+}
+
+div.product img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+div.product p {
+	margin: 10px;
+	line-height: 1.3em;
+	text-align: justify;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 1.3em;
+}

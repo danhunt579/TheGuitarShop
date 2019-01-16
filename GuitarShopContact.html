@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Guitar Shop Contact</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="keywords" content="guitar, fender, gibson"/>
+		<link href="css\reset.css" rel="stylesheet" />
+		<link href="css\styleAll.css" rel="stylesheet" />
+		<link href="css\styleContact.css" rel="stylesheet" />
+		<link href="css\styleContactForm.css" rel="stylesheet" />
+		<link href="css\styleResponsiveAll.css" rel="stylesheet" />
+		<link href="css\styleResponsiveContact.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Raleway|Teko" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<img src="images\amp960Franklin.jpg" alt="amp" />
+			<nav class="topNav">
+				<ul>
+					<li><a href="GuitarShopHome.html">Home</a></li>
+					<li><a href="GuitarShopProducts.html">Products</a></li>
+					<li><a href="GuitarShopLessons.html">Lessons</a></li>
+					<li><a href="GuitarShopContact.html">Contact Us</a></li>				
+				</ul>
+			</nav>
+		</header>
+			<!------------------------Section Left----------------------------------------->
+			<main>
+				<section id="left">
+					<article>
+						<h1>Contact Us</h1>
+						<p id="thanks">Thanks for taking the time to reach out.  We read all incoming communication and make every attempt to do the right thing.  Thank you to all the people who have bought from us.  We will go out of our way to make you happy.  Thanks to all the people who are considering buying from us.  We want to earn your business.</p>
+						<h2>&#128354;&nbsp;Hours</h2>
+							<p>Monday - Friday 10:00a.m. - 9:00p.m.</p>
+							<p>Saturday - Sunday 11:00a.m. - 7p.m.</p>
+						<h2>&#9743;&nbsp;Phone</h2>
+							<p><a href="tel:+15165557734">(516)-555-7734</a></p>
+						<h2>&#x2709;&nbsp;Email</h2>
+							<p><a href="mailto:customerservice@guitarshop.com">customerservice@guitarshop.com</a></p>
+						<h2>&#x2295;&nbsp;Address</h2>
+							<p>3601 Hempstead Turnpike</br>Levittown, NY 11756</p>
+					</article>
+				</section>
+				
+				<!-----------------------------Contact Form---------------------------------------->
+				<section id="right">
+					<article>
+						<h1>Contact</h1>
+						<form id="contact">
+							<fieldset id="info">
+								<legend>Your Information</legend>
+								<div class="fieldLine">
+									<label for="name">Name</label>			
+									<input name="userName" id="name" type="text" placeholder="Amy Pond" /> 
+								</div>
+								<div class="fieldLine">								
+									<label for="phone">Phone #</label>
+									<input name="userPhone" id="phone" type="tel" placeholder="(###) ###-####"
+									pattern="^\d{10}|^(\(\d{3}\)|s*)?\d{3}[\s-]?\d{4}$" maxlength="10" />
+								</div>
+								<div class="fieldLine">									
+									<label for="mail">Email</label>
+									<input name="userEmail" id="mail" type="email" placeholder="@" />
+								</div>
+								<div class="fieldLine">									
+									<label for="street">Street Address</label>
+									<input name="userStreet" id="street" type="text" />
+								</div>
+								<div class="fieldLine">									
+									<label for="city">City</label>
+									<input name="userCity" id="city" type="text" />
+								</div>
+								<div class="fieldLine">									
+									<label for="state">State</label>
+									<input name="userState" id="state" size="2"  type="text" pattern="^[a-z]{2}$|^[A-Z]{2}$" />									
+								</div>
+								<div class="fieldLine">									
+									<label for="zip">Zip Code</label>
+									<input name="userZip" id="Zip" type="text" placeholder="#####" 
+									pattern="^\d{5}$" maxlength="5" />
+								</div>
+							</fieldset>
+							<fieldset id="purchase">
+								<legend>Your Purchase</legend>
+								<div class="fieldLine">									
+									<label for="date">Purchase Date</label>
+									<input name="dateVisit" id="date" type="date" />
+								</div>
+								<div class="fieldLine">									
+									<label for="type">Product Type</label>
+									<select name="productType" id="type">
+										<option value="type1">Electric Guitar</option>
+										<option value="type2">Acoustic Guitar</option>
+										<option value="type3">Bass Guitar</option>
+										<option value="type4">Amplifier</option>										
+									</select>
+								</div>
+								<div class="fieldLine">									
+									<label>Are you happy with your purchase?</label>
+									<fieldset class="radioGroup">
+										<label for="yes">Yes</label>
+										<input name="userHappy" id="yes" value="Yes" type="radio" />
+										<label for="no">No</label>
+										<input name="userHappy" id="no" value="no" type="radio" />			
+									</fieldset>
+								</div>
+								<div class="fieldLine">									
+									<label>Would you recommend us to a friend?</label>
+									<fieldset class="radioGroup">
+										<label for="yes">Yes</label>
+										<input name="recommend" id="yes" value="Yes" type="radio" />
+										<label for="no">No</label>
+										<input name="recommend" id="no" value="no" type="radio" />			
+									</fieldset>
+								</div>
+								<div class="fieldLine">									
+									<label for="comment">Comments</label>
+									<textarea name="userComment" id="comment"></textarea>
+								</div>
+							</fieldset>
+							<div id="buttons">
+								<input type="submit" value="Submit" />
+								<input type="reset" value="reset" />
+							</div>
+						</form>
+					</article>
+				</section>
+				<!-----------------------------End Contact Form------------------------------------>
+			</main>
+			
+			
+			<footer>
+				<section id="columns">
+				<nav class="footNav">
+					<h1>Company</h1>
+					<ul>
+						<li><a href="GuitarShopHome.html">About Us</a></li>
+						<li><a href="#"><img id="fbicon" src="images\fbicon.png" alt="Fb" />Facebook</a></li>
+						<li><a href="#"><img id="twittericon" src="images\twittericon.png" alt="Twitter" />Twitter</a></li>
+						<li><a href="#">Reviews</a></li>
+					</ul>
+				</nav>
+				
+				<nav class="footNav">
+					<h1>Products</h1>
+					<ul>
+						<li><a href="GuitarShopProducts.html#electric">Electric</a></li>
+						<li><a href="GuitarShopProducts.html#acoustic">Acoustic</a></li>
+						<li><a href="GuitarShopProducts.html#bass">Bass</a></li>
+						<li><a href="GuitarShopProducts.html#amplification">Amps</a></li>
+					</ul>
+				</nav>
+				
+				<nav class="footNav">
+					<h1>Services</h1>
+					<ul>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Order History</a></li>
+						<li><a href="#">Tracking</a></li>
+						<li><a href="GuitarShopContact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				</section>
+				<div id="address">
+						<p>The Guitar Shop &nbsp; &#9834; &nbsp; 3601 Hempstead Turnpike &nbsp; &#9834; &nbsp;
+						Levittown, NY &#9834; &nbsp; (516) 555-7734 &nbsp; &#9743; </p>
+				</div>				
+			</footer>	
+		</header>
+	</body>
+
+</html>

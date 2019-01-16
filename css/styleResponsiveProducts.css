@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*
+Stylesheet for products mobile page, no tablet
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+		div.product {
+			box-shadow: none;
+		}
+		
+}
+

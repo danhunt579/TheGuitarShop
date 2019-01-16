@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* 
+Stylesheet for contact us mobile and tablet 
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+	/* Left Section*/
+	section#left {
+		float: none;
+		width: 100%;
+		font-size: .75em;
+	}
+	
+	section#left article {
+		padding: 10px;
+	}
+	
+	section#left article p{
+		line-height: 1.5em;
+	}
+	
+	/* Right Section */
+	
+	section#right {
+		float: none;
+		width: 100%;
+	}	
+	
+	section#right article{
+		padding: 10px;
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	/* Left Section*/
+	section#left {
+		font-size: .75em;
+	}
+	
+	section#left article {
+		padding: 10px;
+	}
+	
+	s11ection#left article p {
+		line-height: 1.5em;
+	}
+	
+	/* Right Section */
+	
+	section#right article {
+		padding: 10px;
+	}
+}
+

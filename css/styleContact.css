@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*
+Stylesheet for contact us page
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Main Styles */
+main h1 {
+	font-size: 1.5em;	
+	text-align: center;
+	line-height: 1.5em;
+	color: white;
+}
+
+main h2 {
+	font-size: 1.4em;	
+	text-align: left;
+	line-height: 1.5em;
+	color: white;
+}
+main p {
+	font-size: 1em;	
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+body > main {
+	background-color: aqua;
+}
+
+body > main::after {
+	clear: both;
+	content: "";
+	display: table;	
+}
+
+/* Left Section */
+
+section#left {
+	clear: both;
+	float: left;
+	width: 50%;
+	color: white;
+	background-color: aqua;
+}
+
+section#left article {
+	padding: 25px 30px;
+}
+
+section#left article p {
+		line-height: 1.9em;
+}
+
+section#left::after {
+	clear: both;
+	content: "";
+	display: table;	
+}
+
+section#left article h1 {
+	border-radius: 20px;
+	color: aqua;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+#thanks {
+	margin-bottom: 15px;
+}
+
+section#left article h2 {
+	border-radius: 20px;
+	color: aqua;
+	background-color: white;
+	width: 150px;
+	padding: 0px 10px;
+	margin-bottom: 3px;
+}
+
+section#left a:link, section#left a:visited  {
+	color: white;
+	text-decoration: none;
+}
+
+section#left a:hover, section#left a:active  {
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: underline;
+}
+
+/* Right Section */
+
+section#right {
+	float: left;
+	width: 50%;	
+	color: aqua;
+	background-color: white;
+}
+
+section#right::after {
+	clear: both;
+	content: "";
+	display: table;	
+}
+
+section#right article {
+	padding: 25px 30px;
+	color: aqua;
+}
+
+section#right article h1 {
+	border-radius: 20px;
+	color: white;
+	background-color: aqua;
+	margin-bottom: 15px;
+}

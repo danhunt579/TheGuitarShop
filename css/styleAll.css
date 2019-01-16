@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*
+Stylesheet for All pages: Top image & header, top nav, footer nav 
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Set background image */
+html {
+	background-image: url("../images/ampTop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: raleway, sans-serif;
+}
+/* Set page paramaters */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1024px;
+	min-width: 320px;
+	width: 100%;
+	box-shadow: gray 15px 0px 25px,
+				gray -15px 0px 25px; 
+	
+}
+
+body header img {
+	width: 100%;
+}
+
+/* topNav Styles */
+body > header {
+	background-color: black;
+}
+
+nav.topNav  li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+nav.topNav a {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+nav.topNav a:link, nav.topNav a:visited {
+	color: aqua;
+	background-color: black;
+	
+}
+
+nav.topNav a:hover, nav.topNav a:active {
+	color: black;
+	background-color: aqua;
+}
+
+#columns {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+#columns .footNav {
+	-webkit-flex: 0 1 150px;
+	flex: 0 1 150px;
+	padding: 0px 40px 0px 40px;
+	line-height: 1.5em;
+}
+	
+/* Footer Styles */
+footer {
+	clear: left;
+	padding-top: 25px;
+	background: linear-gradient(345deg, gray, black 80%);
+}
+
+
+
+footer h1 {
+		color: aqua;
+		font-size: 1.7em;
+}
+
+
+nav.footNav a:link, nav.footNav a:visited {
+	color: white;
+}
+
+nav.footNav a:hover, nav.footNav a:active {
+	text-decoration: underline;
+}	
+
+div#address p {
+	color: aqua;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+	font-size: 1.1em;
+	font-style: normal;
+	font-weight: bold;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*
+Stylesheet for lessons page
+Author:  Dan Hunt
+Date:  01.15.19
+*/
+
+/* Body Sections */
+body {
+	background-color: linen;	
+}
+
+main {
+	clear: both;
+	display: -webkit-flex;
+	display: flex;	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+/* Class Sections */
+
+.section {
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+	border: 1px solid black;
+	margin: 5px;
+	border-radius: 20px;
+}
+
+.section h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	border-radius: 20px;
+	color: goldenrod;
+	background-color: black;
+	width: 70%;
+	margin: 5px auto 5px auto;
+}
+
+.section p {
+	margin: 5px 20px;
+	line-height: 1.5em;
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+#lessons img {
+	float: left;
+	width: 40%;
+	margin: 5px 30px 5px 5px;
+	border-radius: 20px;
+	box-shadow: gray 10px 10px 20px;
+}
+
+div#instructorBios {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+ /* Teacher Sections */
+ 
+.teacher {
+	-webkit-flex: 1 1 200px;
+	flex: 1 1 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	background-color: goldenrod;
+	margin: 5px;
+	box-shadow: gray 10px 10px 20px;
+}
+
+.teacher h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.teacher img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 200px;
+}
+
+.teacher h1 {
+	width: 80%;
+}
+
+#playathon img {
+	width: 95%;
+	margin: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	box-shadow: gray 15px 15px 20px;	
+}
+
+/* Playathon Styles*/
+
+#playathon h1 {
+	padding: 5px;
+}
+
+#playathon p {
+	padding: 10px;	
+} 
+
+table.cDown {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	border: 5px dotted black;
+	border-radius: 20px;
+	font-family: 'Teko', sans-serif;
+	font-size: 2em;
+	line-height: 1.2em;
+	background: goldenrod;
+	text-shadow: 7px 7px 20px white;
+	text-align: center;
+}
+
+table.cDown caption {
+	background: black;
+	color: goldenrod;
+	width: 50%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+Stylesheet for Home page mobile
+no changes to tablet
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+	section#left {
+		float: none;
+		width: 100%;
+		font-size: .7em;
+	}
+
+	section#right {
+		float: none;
+		width: 100%;
+	}
+	
+}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*
+Stylesheet for mobile and tablet lessons page
+Author: Dan Hunt
+Date: 01.15.19
+*/
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+	
+	#lessons img {
+		display: none;
+	}
+	
+	
+
+	#lessons p, #instructors p, #playathon p {
+		font-size: .9em;
+		line-height: 1.2em;
+	}
+	
+	.teacher {
+		box-shadow: none;
+	}
+	
+	#playathon img {
+		box-shadow: none;
+	}
+	
+	table.cDown {
+			font-size: 1.7em;
+	}
+	
+	table.cDown caption {
+		display: none;
+	}
+	
+		
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+	#lessons img {
+		display: none;
+	}
+	
+	table.cDown caption {
+		display: none;
+	}
+}

@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*
+Style sheet for home page
+Author: Dan Hunt
+Date : 01.15.19
+*/
+
+
+/* Main Sections */
+body > main {
+	background-color: linen;
+}
+
+body > main::after {
+	clear: both;
+	content: "";
+	display: table;	
+}
+
+/* Left Section */
+section#left {
+	clear: left;
+	float: left;
+	width: 35%;
+	background-color: linen;
+}
+
+section#left > article {
+	padding: 20px 30px 0px 30px;
+}
+
+section#left article h1 {
+	font-size: 1.6em;	
+	text-align: center;
+	line-height: 1.5em;
+}
+
+section#left article p {
+	font-size: 1.25em;	
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+section#left::after {
+	clear: both;
+	content: "";
+	display: table;	
+}
+
+/* Right Sections */
+
+section#right {
+	float:left;
+	width: 65%;
+	background-color: linen;
+}
+
+section#right img {
+	display: block;
+	max-width: 100%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Nav Sections */
+
+nav.categories a {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2em;
+	color: aqua;
+	background-color: black;
+	}
+
+nav.categories a:link, nav.categories a:visited {
+	color: aqua;
+	background-color: black;
+}
+
+nav.categories a:hover, nav.categories a:active {
+	color: black;
+	background-color: aqua;
+}
